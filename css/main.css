@@ -1169,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #70ff20;
+  background: #850eff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1962,6 +1962,16 @@ pre .javascript .function {
 }
 #qr p {
   text-align: center;
+}
+#设置博文内链接为蓝色,
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+#设置博文内链接为蓝色:hover,
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
 }
 .category-all-page .category-all-title {
   text-align: center;
